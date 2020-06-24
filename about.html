@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Made Simple</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body onload="myFunction()">
+    <div id="loading"></div>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-inverse navbar-dark">
+        <!-- Brand -->
+        <div style="padding-top: 6px;">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="./images/logo.png"
+              alt="logo"
+              style="width: 50px; height: 50px;"
+            />SpaceMadeSimple</a
+          >
+        </div>
+        <!-- Toggler/collapsible Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-address-card"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fab fa-telegram-plane"></i> Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"
+                ><i class="fas fa-user-alt"></i> Admin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container centered">
+        <div class="transbox">
+          <h1>About Me</h1>
+          <h4>This is what I do.</h4>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid col-lg-8" id="about">
+        <p>
+          I am a C.S Undergrad at BITS Goa. This beautiful picture shown above is my college campus. I enjoy <b>coding</b> and solving challenging
+          questions. I am also interested in <b>Web Development</b> and <b>Graphic Designing</b>. I find <b>Astronomy</b> quite interesting and enjoy
+          astronomical observations. I like arts and crafts as I’m a
+          creative person. I enjoy
+          being physically active as well, and spend a lot of time playing
+          <b>basketball</b>.
+        </p>
+        <p>
+          I am a core member of SEDS Celestia, the Astronomy Club of BITS Goa and started writing articles for it's blog <a href="https://bitsgcelestia.wordpress.com/about/" id="blog">the Wandering Star</a> recently. My first article was a record-breaker for the most number of views. I was amazed by it's unexpected success. I realized that if a complex topic is explained in simple words, it can become quite interesting.</p>
+          <p>One of my favorite quotes is by Leonardo da Vinci: “Simplicity is the ultimate sophistication”. The way I understand it is that simplicity goes hand in hand with perfection. It shows how beautiful and elegant things are when they are not lost in the detail. It means sifting through tons of soil to find one perfect gem.
+        </p>
+        <p style="text-align: center;">So, let's keep it Simple!</p>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <hr class="w-50 mx-auto" /> 
+          <div class="container-fluid links">
+            <div class="row">
+            <div><a href="https://www.linkedin.com/in/sanika-chepe-93b570163" target="blank"><img src="./images/linkedin.png"></a></div>
+            <div><a href="https://www.instagram.com/sanikachepe/" target="blank"><img src="./images/insta.png"></a></div>
+            <div><a href="https://www.facebook.com/sanika.chepe" target="blank"><img src="./images/facebook.png"></a></div>
+          <div><a href="https://join.skype.com/invite/YdcUfjXnUZXK" target="blank"><img src="./images/skype.png"></a></div>
+        </div>
+        </div>
+        </div>
+
+    </footer>
+    <script>
+      var preloader = document.getElementById("loading");
+      function myFunction(){
+        preloader.style.display = 'none';
+      };
+      </script>
+  </body>
+</html>
